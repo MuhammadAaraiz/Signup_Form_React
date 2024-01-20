@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.Main_Container {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+
+.Input_Container {
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Heading_Container {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Icons_Container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(210, 227, 240);
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  padding: 5px;
+}
+
+.Input_Fields {
+  background-color: rgb(210, 227, 240);
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.Links {
+  margin-left: 60px;
+}
+
+.Button {
+  border-radius: 20px;
+  padding: 5px;
+  width: 120px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  color: whitesmoke;
+  background-color: blue;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.Button:hover {
+  box-shadow: 0px 0px 30px black;
+  color: whitesmoke;
+}
+
+.Labels_Container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-style: italic;
+}
+
+.Foget_Link {
+  margin-left: 60px;
+  font-style: italic;
+  color: blue;
+  text-decoration: none;
+}
+
+.Foget_Link:hover {
+  color: rgb(98, 98, 118);
+}
+
+.Main_Terminal {
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
